@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COVID-19 test</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style type="text/css">
+		.box{
+			display: none;
+		}
+		.infa{
+			display: none;
+		}
+		.infa2{
+			display: none;
+		}
+		.inf{
+			display: none;
+		}
+		.res{
+			display: none;
+		}
+		.header {
+            background: #002130;
+            background-size: 100%;
+            background-position: 50%;
+        }
+
+        .bg {
+        	background-image: url(bg.jpg);
+        	background-size: auto 100%;
+        	height: 3400px
+        }
+
+        .text {
+        	color: white;
+        }
+	</style>
+</head>
+<body>
+<div class="bg">
+	<div class="col-12 header shadow" style="height: 50px">
+	       	<h2 class="text-white text-right my-auto font-weight-light">#сидим дома</h2>
+	</div>
+	<!-- Старт-->
+	<div class="intro col-12 mt-3 box" style="display: block;">
+		<div class="col-7 mx-auto p-3 rounded shadow" style="background: #10626b; border: solid #06434a;">
+			<h5 class="text font-weight-light">Коронавирусная инфекция COVID-19 (аббревиатура от англ. COrona VIrus Disease 2019) — потенциально тяжёлая острая респираторная инфекция, погрузившая весь мир в хаос. Заболевание вызывается новым вирусом, к которому у людей нет приобретённого иммунитета</h5>
+		</div>
+		<div class="col-8 mx-auto rounded p-3 shadow mt-3 row" style="background: #002130; border: solid #001c2d;">
+			<h5 class="text-white font-weight-light">Специально для вас был подготовлен тест на знание коронавируса. Пройдите этот тест, и узнайте то, что не знали до этого!</h5>
+		</div>
+		<div class="col-6 mx-auto mt-3 text-center rounded shadow" style="background-image: url(start.jpg); background-size: 100% 100%; height: 430px; color: #0883c2; padding-top: 180px; display: block;">
+			<div class="start col-4 mt-3 text-center rounded-pill shadow mx-auto bg-dark" style=" border: solid #e83d40;"> 
+				<h2 class="font-weight-normal" style="color: #e83d40">START</h2>
+			</div>
+		</div>
+	</div>
+
+	<!-- Первый вопрос-->
+	<div class="box col-6 mx-auto mt-2 text-center">
+		<h4 class="font-weight-normal text">1. Что из перечисленного является минимально допустимой мерой защиты от COVID-19:</h4>
+		<img src="1.jpg" class="w-75 rounded shadow" height="">
+
+		<div class="nein col-12 mt-3 text-center rounded-pill shadow" style="background: #5bbef0; border: solid #0883c2;"> 
+			<h5 class="font-weight-normal">Медицинская маска</h5>
+		</div>
+		<div class="no col-12 mt-2 text-center rounded-pill shadow" style="background: #5bbef0; border: solid #0883c2;"> 
+			<h5 class="font-weight-normal">Респиратор класса защиты FFP1</h5>
+		</div>
+		<div class="yes col-12 mt-2 text-center rounded-pill shadow" style="background: #5bbef0; border: solid #0883c2;"> 
+			<h5 class="font-weight-normal">Респиратор класса защиты FFP2</h5>
+		</div>
+	</div>
+
+	<!-- Второй вопрос-->
+	<div class="box col-6 mx-auto mt-4 text-center">
+		<h3 class="font-weight-normal text">2.Есть ли случаи повторного заражения вирусом SARS-CoV-2 COVID-19?</h3>
+		<img src="2.jpg" class="w-75 shadow rounded">
+
+		<div class="nein col-12 mt-3 text-center rounded-pill shadow" style="background: #b3a094; border: solid #826d60;"> 
+			<h5 class="font-weight-normal">Нет</h5>
+		</div>
+		<div class="no col-12 mt-2 text-center rounded-pill shadow" style="background: #b3a094; border: solid #826d60;"> 
+			<h5 class="font-weight-normal">Да</h5>
+		</div>
+		<div class="yes col-12 mt-2 text-center rounded-pill shadow" style="background: #b3a094; border: solid #826d60;"> 
+			<h5 class="font-weight-normal">Неизвестно</h5>
+		</div>
+	</div>
+
+	<!-- Третий вопрос-->
+	<div class="box col-6 mx-auto mt-4 text-center">
+		<h4 class="font-weight-normal text">3. Какой минимальной дистанции следует держатся от зараженного COVID-19:</h4>
+		<img src="3.jpg" class="w-75 shadow rounded">
+
+		<div class="yes col-12 mt-3 text-center rounded-pill shadow" style="background: #10626b; border: solid #06434a;"> 
+			<h5 class="font-weight-normal">1 метр</h5>
+		</div>
+		<div class="nein col-12 mt-2 text-center rounded-pill shadow" style="background: #10626b; border: solid #06434a;"> 
+			<h5 class="font-weight-normal">2 метр</h5>
+		</div>
+		<div class="no col-12 mt-2 text-center rounded-pill shadow" style="background: #10626b; border: solid #06434a;"> 
+			<h5 class="font-weight-normal">2,5 метра</h5>
+		</div>
+	</div>
+	
+	<!-- Четвертый вопрос-->
+	<div class="box col-6 mx-auto mt-4 text-center">
+		<h2 class="font-weight-normal text">4.Кто находится в группе риска высокой смертности?</h2>
+		<img src="4.jpg" class="w-75 shadow rounded">
+
+		<div class="nein col-12 mt-3 text-center rounded-pill shadow" style="background: #b37c36; border: solid #6e4510;"> 
+			<h5 class="font-weight-normal">Все</h5>
+		</div>
+		<div class="yes col-12 mt-2 text-center rounded-pill shadow" style="background: #b37c36; border: solid #6e4510;"> 
+			<h5 class="font-weight-normal">от 65</h5>
+		</div>
+		<div class="no col-12 mt-2 text-center rounded-pill shadow" style="background: #b37c36; border: solid #6e4510;"> 
+			<h5 class="font-weight-normal">От 15</h5>
+		</div>
+	</div>
+
+	<!-- Пятый вопрос-->
+	<div class="box col-6 mx-auto mt-4 text-center">
+		<h2 class="font-weight-normal text">5. Существует ли вакцина?</h2>
+		<img src="5.jpg" class="w-75 shadow rounded">
+
+		<div class="nein col-12 mt-3 text-center rounded-pill shadow" style="background: #8e59de; border: solid #58299e;"> 
+			<h5 class="font-weight-normal">Да</h5>
+		</div>
+		<div class="yes col-12 mt-2 text-center rounded-pill shadow" style="background: #8e59de; border: solid #58299e;"> 
+			<h5 class="font-weight-normal">Нет</h5>
+		</div>
+		<div class="no col-12 mt-2 text-center rounded-pill shadow" style="background: #8e59de; border: solid #58299e;"> 
+			<h5 class="font-weight-normal">Не знаю</h5>
+		</div>
+	</div>
+
+	<!-- Шестой вопрос-->
+	<div class="box col-6 mx-auto mt-4 text-center">
+		<h3 class="font-weight-normal text">6. Что берут при анализе, выявляющем вирус?</h3>
+		<img src="6.jpg" class="w-75 shadow rounded">
+
+		<div class="nein col-12 mt-3 text-center rounded-pill shadow" style="background: #ed2b2b; border: solid #991414;"> 
+			<h5 class="font-weight-normal">Кровь</h5>
+		</div>
+		<div class="no col-12 mt-2 text-center rounded-pill shadow" style="background: #ed2b2b; border: solid #991414;"> 
+			<h5 class="font-weight-normal">Мочу</h5>
+		</div>
+		<div class="yes col-12 mt-2 text-center rounded-pill shadow" style="background: #ed2b2b; border: solid #991414;"> 
+			<h5 class="font-weight-normal">Мазок ротоглотки/носоглотки</h5>
+		</div>
+	</div>
+
+	<!-- Седьмой вопрос-->
+	<div class="box col-6 mx-auto mt-4 text-center">
+		<h2 class="font-weight-normal text">7. Какими путями передается вирус?</h2>
+		<img src="7.jpg" class="w-75 shadow rounded">
+
+		<div class="nein col-12 mt-3 text-center rounded-pill shadow" style="background: #edca6b; border: solid #deb40d;"> 
+			<h5 class="font-weight-normal">Воздушно-капельным и водным</h5>
+		</div>
+		<div class="yes col-12 mt-2 text-center rounded-pill shadow" style="background: #edca6b; border: solid #deb40d;"> 
+			<h5 class="font-weight-normal">Воздушно-капельным и контактным</h5>
+		</div>
+		<div class="no col-12 mt-2 text-center rounded-pill shadow" style="background: #edca6b; border: solid #deb40d;"> 
+			<h5 class="font-weight-normal">Воздушно-пылевым и контактным</h5>
+		</div>
+	</div>
+
+	<!-- Восьмой вопрос-->
+	<div class="box col-6 mx-auto mt-4 text-center">
+		<h4 class="font-weight-normal text">8. Что из перечисленного является средством предотвращения заболевания COVID-19:</h4>
+		<img src="8.jpg" class="w-75 shadow rounded">
+
+		<div class="nein col-12 mt-3 text-center rounded-pill shadow" style="background: #b3a094; border: solid #826d60;"> 
+			<h6 class="font-weight-normal">Воздействие на организм солнца или температуры свыше 25 градусов по Цельсию</h6>
+		</div>
+		<div class="yes col-12 mt-2 text-center rounded-pill shadow" style="background: #b3a094; border: solid #826d60;"> 
+			<h6 class="font-weight-normal">Тщательное мытье рук, и предотвращение касания к глазам, рту и носу</h6>
+		</div>
+		<div class="no col-12 mt-2 text-center rounded-pill shadow" style="background: #b3a094; border: solid #826d60;"> 
+			<h6 class="font-weight-normal">Употребление алкоголя</h6>
+		</div>
+	</div>
+
+	<!-- Девятый вопрос-->
+	<div class="box col-6 mx-auto mt-4 text-center">
+		<h4 class="font-weight-normal text">9. Какой из ниже перечисленных симптомов соответствует коронавирусу?</h4>
+		<img src="9.jpg" class="w-75 shadow rounded">
+
+		<div class="nein col-12 mt-3 text-center rounded-pill shadow" style="background: #919ba1; border: solid #6a6f73;"> 
+			<h5 class="font-weight-normal">Чихание</h5>
+		</div>
+		<div class="yes col-12 mt-2 text-center rounded-pill shadow" style="background: #919ba1; border: solid #6a6f73;"> 
+			<h5 class="font-weight-normal">Сухой кашель</h5>
+		</div>
+		<div class="no col-12 mt-2 text-center rounded-pill shadow" style="background: #919ba1; border: solid #6a6f73;"> 
+			<h5 class="font-weight-normal">Влажный кашель</h5>
+		</div>
+	</div>
+
+	<!-- Десятый вопрос-->
+	<div class="box col-6 mx-auto mt-4 text-center">
+		<h3 class="font-weight-normal text">10. Можно ли заразиться от домашнего животного?</h3>
+		<img src="10.jpg" class="w-75 shadow rounded">
+
+		<div class="nein col-12 mt-3 text-center rounded-pill shadow" style="background: #59c269; border: solid #2d963d;"> 
+			<h5 class="font-weight-normal">Да</h5>
+		</div>
+		<div class="yes col-12 mt-2 text-center rounded-pill shadow" style="background: #59c269; border: solid #2d963d;"> 
+			<h5 class="font-weight-normal">Нет</h5>
+		</div>
+		<div class="no col-12 mt-2 text-center rounded-pill shadow" style="background: #59c269; border: solid #2d963d;"> 
+			<h5 class="font-weight-normal">Не знаю</h5>
+		</div>
+	</div>
+
+	<!-- Информация которая тип неизвестна пользователю, пишите сами, я устала-->
+	<div class="inf col-8 mx-auto text-justify">
+		<h1 class="text-center text">
+			Твой результат <span class="sp"></span>/10
+		</h1>
+		<div class="res text-center">
+			<img src="11.jpg" class="w-50 shadow rounded">
+			<h6 class="text">
+				Вы отлично разбираетесь в теме!
+			</h6>
+		</div>
+		<div class="res text-center">
+			<img src="12.jpg" class="w-50 shadow rounded">
+			<h6 class="text">
+				Вы хорошо разбираетесь в теме, но всё равно следует узнать побольше!
+			</h6>
+		</div>
+		<div class="res text-center">
+			<img src="13.jpg" class="w-50 shadow rounded">
+			<h6 class="text">
+				Вы недостаточно хорошо разбираетесь в теме, вам нужно узнать побольше!
+ 			</h6>
+		</div>
+		<h1 class="tex text-center mt-4 text">
+			Информация по тем вопросам, на которые вы ответели неверно:
+		</h1>
+		<div class="infa">
+			<h3 class="text-primary">
+				 Что является минимально допустимой мерой защиты от COVID-19?
+			</h3>
+			<p class="text">
+				Если обобщить, то медицинские маски, скорее, помогают защитить окружающих, если вы больны, а респираторы частично защитят вас, если болеют окружающие. Класс защиты FFP1 защищает от нетоксичной пыли, но не от вируса. Класс защиты FFP2 по мнению экспертов, может обеспечить защиту от вируса во многих случаях, но не гарантирует ее. Так, к примеру, сотрудникам, потенциально контактирующим с больными, и врачам их использовать не рекомендовано, они носят респираторы класса защиты FFP3. Этот респиратор можно использоваться шесть — восемь часов. Это минимальная мера защиты
+			</p>
+		</div>
+		<div class="infa">
+			<h3 class="text-primary">
+				Есть ли случаи повторного заражения вирусом SARS-CoV-2?
+			</h3>
+			<p class="text">
+				Случаи повторного наличия COVID-19 были выялены. Но специалисты не подтверждают возможность заразиться им повторно, а полагают, что COVID-19 может оставаться в латентном состоянии в некоторых клетках человеческого тела, а позднее вновь активизироваться и атаковать органы дыхания.
+			</p>
+		</div>
+		<div class="infa">
+			<h3 class="text-primary">
+				Какой минимальной дистанции следует держатся от зараженного?
+			</h3>
+			<p class="text">
+				Держитесь на расстоянии не менее одного метра от кашляющих или чихающих людей. При кашле или чихании из носа или рта выделяются мельчайшие содержащие вирус капли, которые человек распространяет вокруг себя. Находясь слишком близко к такому человеку, вы рискуете вдохнуть эти капли и заразиться от него, в том числе коронавирусной инфекцией, если человек болен COVID-19.
+			</p>
+		</div>
+		<div class="infa">
+			<h3 class="text-primary">
+				Кто находится в группе риска высокой смертности?
+			</h3>
+			<p class="text">
+				Особому риску в ситуации с распространение коронавируса подвержены прежде всего пожилые люди, при этом уровень смертности растет в геометрической прогрессии приблизительно с 65 лет. В Китае, к примеру, уровень смертности среди инфицированных в возрастной группе до 40 лет составил 0,2%, но в возрасте от 70 до 79 лет этот показатель повысился до 8%, а с 80 лет - до 14,8%.
+			</p>
+		</div>
+		<div class="infa">
+			<h3 class="text-primary">
+				Существует ли вакцина?
+			</h3>
+			<p class="text">
+				 Пока вакцины против коронавируса, которая бы помогла остановить распространение инфекции и защитить людей, нет. На данный момент ученые разработали несколько вариантов вакцины и уже тестируют их эффективность на животных. Если тесты пройдут успешно, следующий этап - испытания на людях - может начаться уже в этом году.
+			</p>
+		</div>
+		<div class="infa">
+			<h3 class="text-primary">
+				Что берут при анализе, выявляющем вирус?
+			</h3>
+			<p class="text">
+				Диагностировать вирус возможно при помощи полимеразной цепной реакции с обратной транскрипцией в реальном времени. В качестве образцов для анализа лучше подойдёт мокрота, но можно использовать и слизь из верхних дыхательных путей, если нет возможности получить образцы из нижних. В случае подозрения на инфекцию, но отрицательного результата теста, может быть произведено повторное взятие образцов для анализа из разных участков дыхательных путей
+			</p>
+		</div>
+		<div class="infa">
+			<h3 class="text-primary">
+				Какими путями передается вирус?
+			</h3>
+			<p class="text">
+				Новый коронавирус - респираторный вирус. Он передается главным образом воздушно-капельным путем в результате вдыхания капель, выделяемых из дыхательных путей больного, например при кашле или чихании, а также капель слюны или выделений из носа. Также он может распространяться, когда больной касается любой загрязненной поверхности, например дверной ручки. В этом случае заражение происходит при касании рта, носа или глаз грязными руками.
+			</p>
+		</div>
+		<div class="infa">
+			<h3 class="text-primary">
+				Что является средством предотвращения заболевания COVID-19?
+			</h3>
+			<p class="text">
+				Обычные правила личной гигиены сейчас приобретают более серьезный смысл. Так, специалисты уверяют, что правильное мытье рук минимизирует риски заражения китайским коронавирусом, который распространяется по миру. Также не стоит касаться руками своего лица
+			</p>
+		</div>
+		<div class="infa">
+			<h3 class="text-primary">
+				Какой из ниже перечисленных симптомов соответствует коронавирусу?
+			</h3>
+			<p class="text">
+				Коронавирусная инфекция COVID-19 характеризуется легким течением с такими симптомами как боль в горле, сухой кашель и повышение температуры тела. Практически все зараженные имеют симптомы. У некоторых людей болезнь может протекать в более тяжелой форме и приводить к пневмонии или дыхательной недостаточности. В более редких случаях болезнь может иметь летальный исход
+			</p>
+		</div>
+		<div class="infa">
+			<h3 class="text-primary">
+				Можно ли заразиться от домашнего животного?
+			</h3>
+			<p class="text">
+				 В данный момент случаев заражения covid-19 от домашних животных нет. Они могут заразиться коронавирусом, случаи заражения домашних животных от человека есть, но могут и переносить его на теле. Поэтому необходимо соблюдать за гигиеной питомцев, делать профилактические прививки и не целовать их.
+			</p>
+		</div>
+
+
+
+
+
+
+		<h1 class="tex2 text-center mt-4 text">
+			Подробная информация по тем вопросам, на которые вы ответели правильно:
+		</h1>
+		<div class="infa2">
+			<h3 class="text-primary">
+				 Что является минимально допустимой мерой защиты от COVID-19?
+			</h3>
+			<p class="text">
+				Если обобщить, то медицинские маски, скорее, помогают защитить окружающих, если вы больны, а респираторы частично защитят вас, если болеют окружающие. Класс защиты FFP1 защищает от нетоксичной пыли, но не от вируса. Класс защиты FFP2 по мнению экспертов, может обеспечить защиту от вируса во многих случаях, но не гарантирует ее. Так, к примеру, сотрудникам, потенциально контактирующим с больными, и врачам их использовать не рекомендовано, они носят респираторы класса защиты FFP3. Этот респиратор можно использоваться шесть — восемь часов. Это минимальная мера защиты
+			</p>
+		</div>
+		<div class="infa2">
+			<h3 class="text-primary">
+				Есть ли случаи повторного заражения вирусом SARS-CoV-2?
+			</h3>
+			<p class="text">
+				Случаи повторного наличия COVID-19 были выялены. Но специалисты не подтверждают возможность заразиться им повторно, а полагают, что COVID-19 может оставаться в латентном состоянии в некоторых клетках человеческого тела, а позднее вновь активизироваться и атаковать органы дыхания.
+			</p>
+		</div>
+		<div class="infa2">
+			<h3 class="text-primary">
+				Какой минимальной дистанции следует держатся от зараженного?
+			</h3>
+			<p class="text">
+				Держитесь на расстоянии не менее одного метра от кашляющих или чихающих людей. При кашле или чихании из носа или рта выделяются мельчайшие содержащие вирус капли, которые человек распространяет вокруг себя. Находясь слишком близко к такому человеку, вы рискуете вдохнуть эти капли и заразиться от него, в том числе коронавирусной инфекцией, если человек болен COVID-19.
+			</p>
+		</div>
+		<div class="infa2">
+			<h3 class="text-primary">
+				Кто находится в группе риска высокой смертности?
+			</h3>
+			<p class="text">
+				Особому риску в ситуации с распространение коронавируса подвержены прежде всего пожилые люди, при этом уровень смертности растет в геометрической прогрессии приблизительно с 65 лет. В Китае, к примеру, уровень смертности среди инфицированных в возрастной группе до 40 лет составил 0,2%, но в возрасте от 70 до 79 лет этот показатель повысился до 8%, а с 80 лет - до 14,8%.
+			</p>
+		</div>
+		<div class="infa2">
+			<h3 class="text-primary">
+				Существует ли вакцина?
+			</h3>
+			<p class="text">
+				 Пока вакцины против коронавируса, которая бы помогла остановить распространение инфекции и защитить людей, нет. На данный момент ученые разработали несколько вариантов вакцины и уже тестируют их эффективность на животных. Если тесты пройдут успешно, следующий этап - испытания на людях - может начаться уже в этом году.
+			</p>
+		</div>
+		<div class="infa2">
+			<h3 class="text-primary">
+				Что берут при анализе, выявляющем вирус?
+			</h3>
+			<p class="text">
+				Диагностировать вирус возможно при помощи полимеразной цепной реакции с обратной транскрипцией в реальном времени. В качестве образцов для анализа лучше подойдёт мокрота, но можно использовать и слизь из верхних дыхательных путей, если нет возможности получить образцы из нижних. В случае подозрения на инфекцию, но отрицательного результата теста, может быть произведено повторное взятие образцов для анализа из разных участков дыхательных путей
+			</p>
+		</div>
+		<div class="infa2">
+			<h3 class="text-primary">
+				Какими путями передается вирус?
+			</h3>
+			<p class="text">
+				Новый коронавирус - респираторный вирус. Он передается главным образом воздушно-капельным путем в результате вдыхания капель, выделяемых из дыхательных путей больного, например при кашле или чихании, а также капель слюны или выделений из носа. Также он может распространяться, когда больной касается любой загрязненной поверхности, например дверной ручки. В этом случае заражение происходит при касании рта, носа или глаз грязными руками.
+			</p>
+		</div>
+		<div class="infa2">
+			<h3 class="text-primary">
+				Что является средством предотвращения заболевания COVID-19?
+			</h3>
+			<p class="text">
+				Обычные правила личной гигиены сейчас приобретают более серьезный смысл. Так, специалисты уверяют, что правильное мытье рук минимизирует риски заражения китайским коронавирусом, который распространяется по миру. Также не стоит касаться руками своего лица
+			</p>
+		</div>
+		<div class="infa2">
+			<h3 class="text-primary">
+				Какой из ниже перечисленных симптомов соответствует коронавирусу?
+			</h3>
+			<p class="text">
+				Коронавирусная инфекция COVID-19 характеризуется легким течением с такими симптомами как боль в горле, сухой кашель и повышение температуры тела. У некоторых людей болезнь может протекать в более тяжелой форме и приводить к пневмонии или дыхательной недостаточности. В более редких случаях болезнь может иметь летальный исход
+			</p>
+		</div>
+		<div class="infa2">
+			<h3 class="text-primary">
+				Можно ли заразиться от домашнего животного?
+			</h3>
+			<p class="text">
+				 В данный момент случаев заражения covid-19 от домашних животных нет. Они могут заразиться коронавирусом, случаи заражения домашних животных от человека есть, но могут и переносить его на теле. Поэтому необходимо соблюдать за гигиеной питомцев, делать профилактические прививки и не целовать их.
+			</p>
+		</div>
+
+
+
+
+		<div class="col-12 mt-4">
+			<div class="row">
+				<div class="col-8">
+					<h1 class="text-center text">
+						Интересные факты про коронавирус:
+					</h1>
+					<p class="text">
+						> 1. Пандемия началась в 2020 году. Странное совпадение с другими эпидемиями, также начавшимися на пороге предыдущих столетий. А именно: чума в 1720, холера 1820 году и испанский грипп в 1920 году.
+					</P>
+					<p class="text">
+						> 2. Люди перестали покупать американское пиво Corona, только из-за того, что его название созвучно с коронавирусом. 
+					</p>
+					<p class="text">
+						> 3. От всеобщего карантина более всего страдают малый и средний бизнес. И люди только что открывшие свое дело были вынуждены закрыться и остаться в долгах.
+					</p>
+					<p class="text">
+						> 4. Лечится коронавирус точно так же, как обычный грипп, - в домашних условиях, симптоматически.
+					</p>
+					<p class="text">
+						> 5. Коронавирусом уже заразились многие любимцы публики, различные звезды и выдающиеся личности: Идрис Эльба, Том Хэнкс (благо уже выличился), Принц Чарльз и др.
+					</p>
+					<p class="text">
+						> 6. Один из самых необычных симптомов коронавируса - потеря чувства вкуса и/или обоняния.
+					</p>
+					<p class="text">
+						> 7. В Южной Корее вирус удавалось сдерживать, пока число заболевших не достигло 30. Но женщина, получившая кодовое название "Пациент 31", заразила сразу около 1200 человек. Выяснилось, что она была очень религиозной и продолжала ходить в церковь, несмотря на кашель и высокую температуру, игнорируя распоряжения корейских властей. За 10 дней число зараженных в Южной Корее выросло с 30 до 5000.
+					</p>
+					<p class="text">
+						> 8. Пандемия развивается с ускорением: от постановки первого диагноза до 100 тыс. заболевших прошло 67 дней, вторые 100 тыс. заболели за 11 дней, третьи - за четыре дня.
+					</p>
+					<p class="text">
+						> 9. Пандемия добралась уже до самых отдалённых уголков земного шара, включая знаменитый остров Пасхи, где во вторник, 24 марта, был официально подтверждён первый больной - 42-летний мужчина.
+					</p>
+					<p class="text">
+						> 10. Откуда появился SARS-CoV-2, точно неизвестно, но похожие на него вирусы переносят летучие мыши и панголины.
+					</p>
+				</div>  <!-- Тут интересеные факты-->
+				<div class="col-4 mx-auto" style="margin-top: 110px;">
+					<div class="col-10 ml-5 pr-0 pl-0">
+					<div class="col-12 mb-4 text-center">					
+						<img src="rec2.jpg" class="w-100">
+						<a href="https://lifehacker.ru/poleznye-servisy-dlya-karantina/" class="text-primary" style="font-size: 13px;">Как пережить карантин: 68 полезных сервисов</a>
+					</div>
+
+					<div class="col-12 mb-4 text-center">					
+						<img src="rec3.jpg" class="w-100">
+						<a href="http://kfc-yakutsk.winmon.ru/" class="text-primary" style="font-size: 13px;">Проведи карантин вместе с KFC</a>
+					</div>
+
+					<div class="col-12 mb-4 text-center">					
+						<img src="rec4.png" class="w-100">
+						<a href="https://xn--2020-f4dsa7cb5cl7h.xn--p1ai/" style="font-size: 13px;">Акция взаимопомощи #МыВместе</a>
+					</div>
+
+					<p>
+	                	<a href="https://eda.ykt.ru/#/homepage"><img src="rec1.jpg" class="w-100" alt=""></a>
+	              	</p>
+	              	</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+<div class="col-12 pt-5 text-center" style="height: 130px; background: #002130;">
+	<p  class="text">
+		Site was made by Efimova Elena, Efimov Stepan, Petrov Timur
+	</p>
+</div>
+
+
+
+
+
+	<script type="text/javascript">
+
+		let start = document.querySelector(".start");
+		let image = document.querySelector(".image");
+		let inf = document.querySelector(".inf");
+		let tex = document.querySelector(".tex");
+		let tex2 = document.querySelector(".tex2");
+		let sp = document.querySelector(".sp");
+		let box = document.querySelectorAll(".box");
+		let res = document.querySelectorAll(".res");
+		let yes = document.querySelectorAll(".yes");
+		let nein = document.querySelectorAll(".nein");
+		let no = document.querySelectorAll(".no");
+
+
+		let chet = 0;
+		let massiv = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; //0 показывает в каких вопросах правильно 1- неправильно, цифра 1 присваивается в дальнейшем
+
+		let infa = document.querySelectorAll(".infa");
+		let infa2 = document.querySelectorAll(".infa2"); // Это тип информация
+
+		start.onclick = function(){
+			box[0].style.display = "none";
+			box[1].style.display  = "block";
+		}
+
+		for (let i = 1; i < 10; i++) {
+			yes[i-1].onclick = function(){ //i-1 потому что в отличии от бокса наши yes no nein в тесте начинаются с 0 а не 1
+				chet = chet + 1;
+				box[i].style.display = "none"; // Скрывает вопрос на который ответили 
+				box[i+1].style.display = "block"; // Показывает новый вопрос
+			}			
+			no[i-1].onclick = function(){
+			
+				massiv[i-1] = 1; // Это тип идет подсчет неправильных ответов
+				box[i].style.display  = "none";
+				box[i+1].style.display  = "block";
+			}
+			nein[i-1].onclick = function(){
+			
+				massiv[i-1] = 1;
+				box[i].style.display = "none";
+				box[i+1].style.display = "block";
+			}
+		}
+
+		// я разделила, так как после этого вопроса нечего показывать
+		yes[9].onclick = function(){
+			chet = chet + 1;
+			box[10].style.display = "none";
+			inf.style.display = 'block';
+			sp.innerHTML = chet;
+			if (chet == 10) {
+				res[0].style.display = 'block';
+				tex.style.display = 'none';
+			}
+			else if (chet > 5) {
+				res[1].style.display = 'block';
+			}
+			else {
+				res[2].style.display = 'block';
+			}
+			for( i = 0; i < 10; i++) {
+				if (massiv[i] == 1){
+					infa[i].style.display = 'block';
+				}
+			}
+			for( i = 0; i < 10; i++) {
+				if (massiv[i] == 0){
+					infa2[i].style.display = 'block';
+				}
+			}
+
+		}			
+		no[9].onclick = function(){
+			massiv[9] =  1;
+			box[10].style.display  = "none";
+			inf.style.display = 'block';
+			sp.innerHTML = chet;
+			if (chet == 10) {
+				res[0].style.display = 'block';
+			}
+			else if (chet > 5) {
+				res[1].style.display = 'block';
+			}
+			else if (chet > 0){
+				res[2].style.display = 'block';
+			}
+			else {
+				res[2].style.display = 'block';
+				tex2.style.display = 'none';
+			}
+			for( i = 0; i < 10; i++) {
+				if (massiv[i] == 1){
+					infa[i].style.display = 'block';
+				}
+			}
+			for( i = 0; i < 10; i++) {
+				if (massiv[i] == 0){
+					infa2[i].style.display = 'block';
+				}
+			}
+		}
+		nein[9].onclick = function(){
+			massiv[9] = 1;
+			box[10].style.display = "none";
+			inf.style.display = 'block';
+			sp.innerHTML = chet;
+			if (chet == 10) {
+				res[0].style.display = 'block';
+			}
+			else if (chet > 5) {
+				res[1].style.display = 'block';
+			}
+			else if (chet > 0){
+				res[2].style.display = 'block';
+			}
+			else {
+				res[2].style.display = 'block';
+				tex2.style.display = 'none';
+			}
+			for( i = 0; i < 10; i++) {
+				if (massiv[i] == 1){
+					infa[i].style.display = 'block';
+				}
+			}
+			for( i = 0; i < 10; i++) {
+				if (massiv[i] == 0){
+					infa2[i].style.display = 'block';
+				}
+			}
+		}
+	</script>
+</body>
+</html>
